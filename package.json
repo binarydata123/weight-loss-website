@@ -1,0 +1,40 @@
+{
+	"name": "nodenext",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "concurrently \"npm run start:server\" \"npm run start:client\"",
+		"start:client": "cd client && npm run dev",
+		"start:server": "cd server && npm run dev",
+		"install:api": "cd server && npm install",
+		"install:client": "cd client && npm install",
+		"build:client": "cd client && npm run build",
+		"bootstrap": "npm install && npm run install:api && npm run install:client",
+		"format": "prettier --write . --ignore-path .prettierignore",
+		"commit": "cz",
+		"lint": "concurrently \"npm run lint:client\" \"npm run lint:server\"",
+		"lint:client": "cd client && npm run lint",
+		"lint:server": "cd server && npm run lint"
+	},
+	"keywords": [],
+	"author": "Binary Data <binarydata.sale@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"commitizen": "^4.3.0",
+		"concurrently": "^8.2.2",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.54.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.1",
+		"prettier": "^3.1.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
+	},
+	"repository": "https://github.com/binarydata123/boilerplate-node-nextjs.git",
+	"dependencies": {
+		"dotenv": "^16.3.1"
+	}
+}
