@@ -50,3 +50,16 @@ li{
   --fontWeightExtraBold: 800;
   --fontWeightUltraBold: 900;
 }
+
+.spanBlack{
+  color: #000000 !important;
+}
+.spanPrimary{
+  color:#2EA3F2;
+}
+.fontWeightEight{
+  font-weight: 800 !important;
+}
+.fontWeightThree{
+  font-weight: 300 !important;
+}

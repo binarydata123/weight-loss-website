@@ -11,7 +11,7 @@ interface CustomTextProps {
 	style?: any;
 	title?: any;
 	children?: React.ReactNode;
-	color?: 'defaultColor' | 'PrimaryColor' | 'SecondaryColor' | 'white' | 'black' | 'blueLight';
+	color?: 'defaultColor' | 'primaryColor' | 'SecondaryColor' | 'white' | 'black' | 'blueLight';
 }
 
 const ParaText = ({
@@ -87,8 +87,8 @@ const ParaText = ({
 					fontWeight,
 					color: `${color == 'defaultColor'
 						? '#4F4F4F'
-						: color == 'PrimaryColor'
-							? '#012A59'
+						: color == 'primaryColor'
+							? '#2EA3F2'
 							: color == 'blueLight'
 								? '#0091F7'
 								: color == 'SecondaryColor'
