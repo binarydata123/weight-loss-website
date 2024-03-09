@@ -24,7 +24,7 @@ const Titles = ({ level = 1, content, children, className = '', color = 'default
 			setFontSize(
 				level === 1
 					? screenWidth > 767
-						? 80
+						? 65
 						: 30
 					: level === 2
 						? screenWidth > 767

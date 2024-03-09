@@ -9,11 +9,13 @@ export default function BannerSection() {
 			<div className="" id="mainAdd">
 				<div className="customContainer">
 					<div className="contentBar">
-						<Titles color='white' level={1}>
+						<Titles color='white' level={1} className='fontWeightThree'>
 							<span className="lightSize">
 								Weight Loss is <br /> Not Just about the 
 							</span>
-							<br /> Calories and Exercise
+						</Titles>
+						<Titles color='white' level={1} className='fontWeightEight'>
+							Calories and Exercise
 						</Titles>
 						<div className="gapMarginTop"></div>
 						<ParaText size='large' color='white'>
