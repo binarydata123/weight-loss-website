@@ -5,6 +5,9 @@ import PageLayout from '../../components/PageLayout';
 import { locales } from '../../config';
 import BannerSection from '@/components/BannerSection';
 import ImperialHealthWeightLoss from '@/components/ImperialHealthWeightLoss';
+import ConnectWithWeightLoss from '@/components/ConnectWithWeightLoss';
+import OurServices from '@/components/OurServices';
+import ImperialHealthMedications from '@/components/ImperialHealthMedications';
 
 type Props = {
 	params: { locale: string };
@@ -24,6 +27,9 @@ export default function IndexPage({ params: { locale } }: Props) {
 		<>
 			<BannerSection />
 			<ImperialHealthWeightLoss />
+			<ConnectWithWeightLoss/>
+			<OurServices/>
+			<ImperialHealthMedications/>
 		</>
 	);
 }

@@ -1,0 +1,8 @@
+#connectLoss{
+    padding: 90px 0px;
+}
+.cardType img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}

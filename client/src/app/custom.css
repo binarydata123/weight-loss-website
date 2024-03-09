@@ -169,5 +169,24 @@ body {
 }
 
 .gapMarginTop {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
+.gapMarginTopOne{
+  margin-top: 10px !important;
+}
+.gapMarginTopTwo{
+  margin-top: 20px !important;
+}
+.gapPaddingTopOne{
+  padding-top: 10px !important;
+}
+.gapPaddingTopOTwo{
+  padding-top: 20px !important;
+}
+.paddingBottomOne{
+  padding-bottom: 10px !important;
+}
+.paddingBottomTwo{
+  padding-bottom:20px !important;
+}
+
