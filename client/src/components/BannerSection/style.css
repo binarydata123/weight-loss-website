@@ -1,0 +1,22 @@
+#mainAdd {
+  background-image: url(/home/banner.jpg);
+  padding: 110px 0px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mainAdd h1 {
+  font-size: var(--fontSizeExtraLarge);
+  font-weight: var(--fontWeightBold);
+  color: var(--color-white);
+  font-family: var(--font-Lato);
+}
+.lightSize {
+  font-weight: var(--fontWeightThin);
+}
+.contentBar {
+  max-width: 800px;
+}
+#mainAdd p {
+  color: #fff;
+}
