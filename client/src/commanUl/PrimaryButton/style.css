@@ -1,0 +1,11 @@
+.primary-btn-wrapper .ant-btn-primary {
+  color: #fff;
+  background-color: #2ea3f2 !important;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  height: 45px;
+  border-radius: 30px !important;
+  font-weight: 900;
+}
+button.ant-btn.css-dev-only-do-not-override-nllxry.ant-btn-primary.btn-primary:hover {
+  background: #4f9ed3 !important;
+}
